@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def print_last_digit(number):
-    stri = str(number)
-    last = stri[-1:]
-    laststri = str(last)
-    intl = int(last)
-    print('{:d}'.format(intl), end='')
+        if number >= 0:
+            last_digit = number % 10
+        else:
+            last_digit = number * -1 % 10
+        print(f"{last_digit}", end="")
