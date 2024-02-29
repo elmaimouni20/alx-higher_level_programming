@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for num in range(99):
-    print("{:d} = {:s}".format(num, hex(num)))
+for i in range(99):
+    print("{:s} = {:s}".format(str(i), hex(i)))
